@@ -1,0 +1,20 @@
+.big-yes{
+    font-size: 150px;
+    line-height: 1;
+    margin: 0;
+}
+
+.timer-item{
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 1;
+}
+
+.timer-value{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.timer-label{
+    display: block;
+}
