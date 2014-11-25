@@ -24,7 +24,22 @@
           <div class="timer-item"><span class="timer-value"><?php echo $interval->format('%S') ?></span>  <span class="timer-label">sec</span></div>
       </section>
 
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
 
+
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-center">
+                <img src="/img/socrates.jpg" class="img-responsive" />
+            </div>
+            <div class="col-md-2"></div>
+
+
+        </div>
 
 
       <section class="history">
@@ -55,3 +70,10 @@
 
 
     <section>
+
+
+                <br />
+        <br />
+        <br />
+        <br />
+        <br />
