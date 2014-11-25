@@ -58,7 +58,7 @@ class History
             $base->add($difference);
         }
 
-        return $baseClone->diff($base)->format('%d days, %h hours, %i minutes and %s seconds');
+        return $baseClone->diff($base);
     }
 
     public function isStillInJail()
