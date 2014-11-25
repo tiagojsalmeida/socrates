@@ -9,18 +9,18 @@
 
     <meta itemprop="name" content="Is José Socrates in jail?">
     <meta itemprop="description" content="Is portuguese ex-Prime Minister José Sócrates in jail? Find out here.">
-    <meta itemprop="image" content="http://www.jornalq.com/images/Portugal/socrateswss093.jpg">
+    <meta itemprop="image" content="http://www.issocratesinjail.com/img/socrates.jpg">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Is José Socrates in jail?">
     <meta name="twitter:description" content="Is portuguese ex-Prime Minister José Sócrates in jail? Find out here.">
     <meta name="twitter:creator" content="@_nsimaria_">
-    <meta name="twitter:image:src" content="http://www.jornalq.com/images/Portugal/socrateswss093.jpg">
+    <meta name="twitter:image:src" content="http://www.issocratesinjail.com/img/socrates.jpg">
 
     <meta property="og:title" content="Is José Socrates in jail?" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="http://issocratesinjail.com/" />
-    <meta property="og:image" content="http://www.jornalq.com/images/Portugal/socrateswss093.jpg" />
+    <meta property="og:image" content="http://www.issocratesinjail.com/img/socrates.jpg" />
     <meta property="og:description" content="Is portuguese ex-Prime Minister José Sócrates in jail? Find out here." />
     <meta property="og:site_name" content="Is José Socrates in jail?" />
     <meta property="article:published_time" content="2014-11-25T22:00:00+01:00" />
