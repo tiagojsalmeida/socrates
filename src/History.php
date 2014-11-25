@@ -24,13 +24,13 @@ class History
     public function getTotalTimeInJail()
     {
         $difference = null;
-        $base = new DateTime ();
+        $base = new DateTime();
         $baseClone = clone $base;
 
-        $items = $this->getItems ();
+        $items = $this->getItems();
 
-        foreach ($items as $item)
-        {
+        foreach ($items as $item) {
+
             if (!empty ($difference)) {
                 $base->add($difference);
             }
@@ -39,26 +39,26 @@ class History
             $out = null;
 
             if (!empty ($item->dateIn)) {
-                $in = new DateTime ($item->dateIn);
+                $in = new DateTime($item->dateIn);
             } else {
-                $in = new DateTime ();
+                $in = new DateTime();
             }
 
-            if (!empty ($item->dateOut)) {
-                $out = new DateTime ($item->dateOut);
+            if (!empty($item->dateOut)) {
+                $out = new DateTime($item->dateOut);
             } else {
-                $out = new DateTime ();
+                $out = new DateTime();
             }
 
 
-            $difference = $out->diff ($in);
+            $difference = $out->diff($in);
         }
 
         if (!empty ($difference)) {
             $base->add($difference);
         }
 
-        return $baseClone->diff ($base)->format ('%d days, %h hours, %i minutes and %s seconds');
+        return $baseClone->diff($base)->format('%d days, %h hours, %i minutes and %s seconds');
     }
 
     public function isStillInJail()
