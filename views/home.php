@@ -14,7 +14,7 @@
 
         <br />
 
-      <h2 class="big-yes">
+      <h2 class="big-yes" data-in-jail="<?php echo $history->isStillInJail() ?>">
         <?php echo $history->isStillInJail() ? 'Yes! :)' : 'No. :('; ?>
       </h2>
         <br />
@@ -22,10 +22,13 @@
 
       <section class="timer">
         <h3>Time spent in jail</h3>
-          <div class="timer-item"><span class="timer-value"><?php echo $interval->format('%D') ?></span>  <span class="timer-label">days</span></div>
-          <div class="timer-item"><span class="timer-value"><?php echo $interval->format('%H') ?></span>  <span class="timer-label">hours</span></div>
-          <div class="timer-item"><span class="timer-value"><?php echo $interval->format('%I') ?></span>  <span class="timer-label">min</span></div>
-          <div class="timer-item"><span class="timer-value"><?php echo $interval->format('%S') ?></span>  <span class="timer-label">sec</span></div>
+          <div class="timer-item <?php  echo ($interval->format('%Y') > 0)? '' : 'hide' ?>"><span class="timer-value years"><?php echo $interval->format('%Y') ?></span>  <span class="timer-label">years</span></div>
+          <div class="timer-item <?php  echo ($interval->format('%M') > 0)? '' : 'hide' ?>"><span class="timer-value months"><?php echo $interval->format('%M') ?></span>  <span class="timer-label">months</span></div>
+          <div class="timer-item"><span class="timer-value days"><?php echo $interval->format('%D') ?></span>  <span class="timer-label">days</span></div>
+          <div class="timer-item"><span class="timer-value hours"><?php echo $interval->format('%H') ?></span>  <span class="timer-label">hours</span></div>
+          <div class="timer-item"><span class="timer-value minutes"><?php echo $interval->format('%I') ?></span>  <span class="timer-label">min</span></div>
+          <div class="timer-item"><span class="timer-value seconds"><?php echo $interval->format('%S') ?></span>  <span class="timer-label">sec</span></div>
+          <div id="jailTimer"></div>
       </section>
 
         <br />
@@ -50,7 +53,7 @@
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8 text-center">
-                <img src="/img/socrates.jpg" class="img-responsive" />
+                <img src="img/socrates.jpg" class="img-responsive" />
             </div>
             <div class="col-md-2"></div>
 
