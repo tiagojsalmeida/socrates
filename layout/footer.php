@@ -16,6 +16,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/countdown.min.js"></script>
 
+  <?php if ($history->isStillInJail()): ?>
+
     <script type="text/javascript">
       if ( $('.big-yes').data('in-jail') ){
         var timerId =
@@ -37,7 +39,7 @@
       }
       //window.clearInterval(timerId);
     </script>
-
+<?php endif; ?>
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];

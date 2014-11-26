@@ -15,7 +15,7 @@
         <br />
 
       <h2 class="big-yes" data-in-jail="<?php echo $history->isStillInJail() ?>">
-        <?php echo $history->isStillInJail() ? 'Yes! :)' : 'No. :('; ?>
+        <?php echo $history->isStillInJail() ? 'Yes!' : 'No.'; ?>
       </h2>
         <br />
         <br />
