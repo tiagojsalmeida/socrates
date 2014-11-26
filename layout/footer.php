@@ -12,6 +12,31 @@
     </script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/countdown.min.js"></script>
+
+    <script type="text/javascript">
+      if ( $('.big-yes').data('in-jail') ){
+        var timerId =
+          countdown(
+            new Date( Date.UTC(2014,10,21,22,00) ),
+            function(ts) {
+              $.each(ts, function( index, value ) {
+                $unit = $('.timer-item').find('.' + index)
+                if ($unit.length > 0) {
+                  $unit.html( pad( value, 2 ) );
+                }
+              });
+            },
+            countdown.DECADES|countdown.YEARS|countdown.MONTHS|countdown.DAYS|countdown.HOURS|countdown.MINUTES|countdown.SECONDS);
+      }
+
+      function pad(num, size){
+        return ('000000000' + num).substr(-size);
+      }
+      //window.clearInterval(timerId);
+    </script>
 
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
