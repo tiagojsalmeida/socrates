@@ -35,7 +35,7 @@
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <div class="fb-like" style="top: -5px; position: relative" data-href="http://www.issocratesinjail.com" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div><!-- Place this tag in your head or just before your close body tag. -->
 
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.socratesinjail.com">Tweet</a>
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.issocratesinjail.com">Tweet</a>
           </div>
         </div>
 
