@@ -5,6 +5,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="1cwIpQxTIwMqW6wwcQOxNX7m9KzraXu1j_XTdq0I4_g" />
     <title>Is José Socrates in jail?</title>
 
     <meta itemprop="name" content="Is José Socrates in jail?">
